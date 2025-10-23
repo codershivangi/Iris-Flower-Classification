@@ -21,3 +21,13 @@ The notebook uses the **K-Nearest Neighbors (KNN)** algorithm for classification
 - **Performance:** ~97–99% accuracy on test data
 
 ---
+## 💻 Languages and Libraries Used
+
+| Category | Technology / Library | Purpose |
+|-----------|----------------------|----------|
+| **Programming Language** | 🐍 Python | Core language for ML and deployment |
+| **Machine Learning** | 🤖 Scikit-learn | For KNN model training & evaluation |
+| **Data Handling** | 🧮 Pandas, NumPy | For reading and processing the dataset |
+| **Visualization** | 📊 Matplotlib | For plotting graphs and results |
+| **Web Framework** | 🌐 Streamlit | For building and deploying the web app |
+| **Environment** | 📓 Jupyter Notebook | For model exploration and development |
