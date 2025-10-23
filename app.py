@@ -49,12 +49,3 @@ if st.button("🔍 Predict"):
     prediction = model.predict(input_data)
     predicted_class = iris.target_names[prediction][0]
     st.success(f"The predicted Iris species is: **{predicted_class.capitalize()}** 🌼")
-
-# -----------------------------
-# Optional: Show Dataset
-# -----------------------------
-with st.expander("See the Iris Dataset"):
-    st.dataframe(pd.DataFrame(
-        np.column_stack((iris.data, iris.target)),
-        columns=iris.feature_names + ["target"]
-    ))
